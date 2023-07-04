@@ -48,7 +48,7 @@ class TradingFilter:
             calendar = self.calendars[market]
 
             market_schedule = calendar.schedule(start_date=now.date(), end_date=now.date())
-            print(market_schedule)
+
             if market_schedule.empty:
                 return False  # Market is not open on this day
 
