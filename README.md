@@ -13,6 +13,7 @@ Market Options:
 - Sydney
 - London
 - Tokyo
+- crypto
 
 If you pass "crypto" it will asumme the market is always open. In the case of NewYork and London it will check if it is a holiday day.
 The filter will return False (market close) if the current weekday is Saturday except for crypto.
